@@ -1,0 +1,41 @@
+{
+  "name": "sweetish-ui",
+  "version": "1.0.0",
+  "description": "Using storybook to demo",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spookyburger/sweetish-ui.git"
+  },
+  "keywords": [
+    "Sweetish-ui",
+    "react"
+  ],
+  "author": "Brad Butler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spookyburger/sweetish-ui/issues"
+  },
+  "homepage": "https://github.com/spookyburger/sweetish-ui#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "storybook": "^1.0.0",
+    "@storybook/addon-actions": "^3.4.8",
+    "@storybook/addon-links": "^3.4.8",
+    "@storybook/addons": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1"
+  }
+}
